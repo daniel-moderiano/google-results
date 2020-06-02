@@ -1,8 +1,14 @@
+/* -----GLOBAL----- */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
 /* -----HEADER----- */
 
 .header__top {
     display: flex;
-    padding: 1.5rem 2.25rem 1rem 1.75rem;
+    padding: 1.5rem 2.25rem 1.5rem 1.75rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -83,9 +89,27 @@
 
 /* -----NAV-BAR----- */
 
-/* .header__square-menu {
-    height: auto;
-    width: 1.5rem;
-    padding-right: 1rem;
-} */
+nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DFE1E5;
+    padding-bottom: 1rem;
+    padding-left: 12rem;
+}
 
+.nav__icon {
+    color: #5f6368;
+    padding-right: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.nav__link {
+    color: #5f6368;
+    text-decoration: none;
+    padding-right: 1.5rem;
+    font-size: 0.85rem;
+}
+
+.nav__link--settings {
+    padding-left: 3.5rem;
+}
