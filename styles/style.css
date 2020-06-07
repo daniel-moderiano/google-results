@@ -160,7 +160,7 @@ main {
 
 .result {
     width: 90%;
-    padding-bottom: 2rem;
+    padding-bottom: 1.9rem;
 }
 
 .result__top-link {
@@ -238,6 +238,40 @@ main {
 .related__list {
     padding-right: 2rem;
     line-height: 1.6rem;
+}
+
+
+/* -----PAGES----- */
+
+.pages {
+    text-align: center;
+}
+
+.pages__logo {
+    width: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+.pages__numbers {
+    margin-left: 4.95rem;
+    padding-bottom: 1.75rem;
+}
+
+.pages__link {
+    padding-right: 0.325rem;
+}
+
+.pages__link--next {
+    padding-left: 3rem;
+}
+
+.pages__link:hover {
+    text-decoration: underline;
+}
+
+.pages__link--next:hover {
+    text-decoration: underline;
 }
 
 
