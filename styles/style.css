@@ -5,6 +5,10 @@ html, body {
     height: 100%;
 }
 
+:focus {
+    outline: none;
+}
+
 a {
     text-decoration: none;
     color: rgb(0, 0, 201);
@@ -62,6 +66,10 @@ a {
 
 .header__input:hover {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.header__input-container:focus {
+    outline: none !important;
 }
 
 .header__icon--search {
@@ -130,7 +138,7 @@ main {
 }
 
 .featured {
-    padding-bottom: 5rem;
+    padding-bottom: 1.5rem;
 }
 
 .num-results__text {
@@ -152,6 +160,7 @@ main {
 
 .result {
     width: 90%;
+    padding-bottom: 2rem;
 }
 
 .result__top-link {
@@ -168,7 +177,7 @@ main {
 
 .result__link--blue {
     text-decoration: none;
-    color: rgb(0, 0, 201);
+    color: #1A0DAB;
     font-size: 1.25rem;
     padding: 0.3rem 0 0.4rem 0;
 }
@@ -205,6 +214,31 @@ main {
     font-size: 0.875rem;
 }
 
+
+/* -----RELATED----- */
+
+.related {
+    width: 90%;
+    padding-bottom: 1.5rem;
+}
+
+.related__heading {
+    font-size: 1.3em;
+    padding-bottom: 1.5rem;
+}
+
+.related__results-container {
+    display: flex;
+    align-items: flex-start;
+    font-size: 0.85rem;
+    color: #1A0DAB;
+    font-weight: bold;
+}
+
+.related__list {
+    padding-right: 2rem;
+    line-height: 1.6rem;
+}
 
 
 /* -----FOOTER----- */
